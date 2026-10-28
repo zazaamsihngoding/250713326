@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eef2f7;
+    color: #333333;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+h1 {
+    color: #244b80;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+form {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #dbe3ee;
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid #dbe3ee;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+}
+
+td:first-child {
+    width: 30%;
+    background-color: #f3f6fb;
+}
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+input[type="file"] {
+    max-width: 100%;
+    font-size: 13px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin: 5px;
+}
+
+textarea {
+    max-width: 100%;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #244b80;
+    color: #ffffff;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #17365e;
+}
+
+label {
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 15px 8px;
+    }
+
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    td {
+        padding: 8px;
+    }
+
+    td:first-child {
+        width: 35%;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    select,
+    textarea {
+        max-width: 100%;
+    }
+}

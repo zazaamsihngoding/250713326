@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaf0f8;
+    color: #333333;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+h1 {
+    color: #244b80;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #ffffff;
+    background-color: #244b80;
+    padding: 12px 15px;
+    margin: 25px 0 0;
+    border-radius: 6px 6px 0 0;
+    font-size: 17px;
+}
+
+form {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #dbe3ee;
+    border-radius: 12px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.10);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #dbe3ee;
+}
+
+td {
+    padding: 13px;
+    border: 1px solid #dbe3ee;
+    vertical-align: middle;
+    overflow-wrap: break-word;
+}
+
+td:first-child {
+    width: 32%;
+    background-color: #f0f4fa;
+}
+
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    border: 1px solid #b9c8dc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+input[type="file"] {
+    max-width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #244b80;
+    margin: 5px;
+}
+
+textarea {
+    max-width: 100%;
+    resize: vertical;
+}
+
+label {
+    line-height: 1.8;
+}
+
+.tombol {
+    text-align: center;
+    background-color: #f0f4fa;
+    padding: 18px;
+}
+
+input[type="submit"] {
+    background-color: #244b80;
+    color: white;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #17365e;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        padding: 15px 8px;
+    }
+
+    form {
+        width: 100%;
+        padding: 12px;
+    }
+
+    td {
+        padding: 8px;
+    }
+}
